@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo"><a href="#"><b>Portfo<span>lio.</span></b></a></div>
+                <ul id= "sidemenu"> 
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa fa-times" aria-hidden="true" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa fa-bars" style="font-size:24px" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1><strong>Hi, I'm <span>Sadhvi B S</span></strong></h1>
+            </div>
+        </div>
+    </div>
+
+    <!--about me-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Pictures/picwish1.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"><strong>About Me</strong></h1>
+                    <p>Seeing for an entry-level position in a growing financial organization to expand and utilize my learning, skills and knowledge. Passionate about learning new technologies. Possess excellent communication skills and leadership quality as well. </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link"><strong>Education</strong></p>
+                    </div>
+                    <div class="tab-content active-tab">
+                        <ul>
+                            <li><span>M.Sc. Computer Science</span><br>Mangalore University &emsp;&emsp;&emsp;&emsp;&ensp; 2020-2022</li>
+                            <li><span>B.Sc. Physics, Mathematics, Computer Science</span><br>Sri Bhuvanendra College &emsp;&emsp;&emsp; 2017-2020</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- skills -->
+    <div id="skills" class="skills">
+        <div class="max-width">
+            <h2 class="title"><strong>My skills</strong> </h2>
+            <div class="skill-content">
+                <div class="col-left">
+                    <div class="bars">
+                        <div class="info">
+                            <span>C++ </span>
+                            <span>75%</span>                      
+                        </div>
+                        <div class="line cpp"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>C </span>
+                            <span>65%</span>  
+                        </div>
+                        <div class="line c"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Python </span>
+                            <span>60%</span>                         
+                        </div>
+                        <div class="line python"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>SQL </span>
+                            <span>60%</span>           
+                        </div>
+                        <div class="line sql"></div>
+                    </div>
+                </div>
+                <div class="col-right">
+                    <div class="bars">
+                        <div class="info">
+                            <span>HTML</span>
+                            <span>65%</span>
+                        </div>
+                        <div class="line html"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>CSS</span>
+                            <span>55%</span>
+                        </div>
+                        <div class="line css"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>JavaScript</span>
+                            <span>40%</span>
+                        </div>
+                        <div class="line js"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Blockchain</span>
+                            <span>35%</span>
+                        </div>
+                        <div class="line blockchain"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title"><strong>My work</strong></h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Pictures/e-vote.jpg">
+                    <div class="layer1">
+                        <h3>E-voting system using Blockchain</h3>
+                        <a href="https://github.com/sadhvibs/E-voting-system-using-Blockchain/tree/master">
+                            <i class="fa fa-chain" style="font-size:24px"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Pictures/visualizer.png">
+                    <div class="layer2">
+                        <h3>Sorting Visualizer</h3>
+                        <a href="https://github.com/sadhvibs/Sorting-Visualizer/tree/master"><i class="fa fa-chain" style="font-size:24px"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Pictures/sound1.jpg">
+                    <div class="layer3">
+                        <h3>Urban Sound Classification using Deep Learning</h3>
+                        <a href="https://github.com/sadhvibs/Urban-Sound-Classification"><i class="fa fa-chain" style="font-size:24px"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title"><strong>Contact Me</strong> </h1>
+                    <p><i class="fa fa-envelope" style="font-size:24px"></i>bssadhvi1999@gmail.com</p>
+                    <p><i class='fas fa-phone' style='font-size:24px'></i>+91-9480353607</p>
+
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/sadhvi-bs-220a76219
+                        "><i class="fa fa-linkedin-square" style="font-size:24px"></i></a>
+                        <a href="https://github.com/sadhvibs"><i class="fa fa-github" style="font-size:24px"></i></a> 
+                    </div>
+                    <a href="Sadhvi_BS.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="Email" placeholder="Mail id" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Sadhvi</p>
+        </div>
+    </div>
+    
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontent = document.getElementsByClassName("tab-content");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+
+            for(tabcontents of tabcontent){
+                tabcontents.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemen = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemen.style.right="0";
+        }
+        function closemenu(){
+            sidemen.style.right="-170px";
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby_sonONDqF-s3q6Mhk8_rw8hVJ6hi5HFWSveady441VDAcpbU0hxffMsRNfH4NkPHb/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = 'Message sent successfully'
+            setTimeout(function(){
+                msg.innerHTML=""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
