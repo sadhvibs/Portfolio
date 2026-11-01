@@ -1,0 +1,50 @@
+/* about starts */
+
+@media (max-width: 768px) {
+    .about {
+        padding: 80px 6%;
+    }
+
+    .about-container {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .about-image {
+        max-width: 320px;
+        height: 380px;
+        margin: 0 auto;
+    }
+
+    .about-content {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-image {
+        height: 340px;
+    }
+
+    .about-content h2 {
+        font-size: 34px;
+    }
+}
+
+/* about ends */
+
+
+/* education starts */
+
+@media (max-width: 600px) {
+    .education-item {
+        grid-template-columns: 1fr;
+        gap: 12px;
+        padding: 28px 5px;
+    }
+
+    .education-heading {
+        margin-bottom: 35px;
+    }
+}
+/* education ends */
