@@ -77,7 +77,6 @@ a {
     min-height: 100vh;
     background: rgba(0, 0, 0, 0.7);
 }
-
 /* left nav starts */
 
 .email-container {
@@ -304,7 +303,6 @@ main {
     z-index: 2;
 }
 
-/* Hover effect */
 .image-one:hover {
     transform: rotate(-9deg) scale(1.05);
     z-index: 3;
@@ -316,7 +314,6 @@ main {
 }
 
 /* about starts */
-/* ABOUT SECTION */
 
 .about {
     min-height: 100vh;
@@ -335,8 +332,6 @@ main {
     align-items: center;
     gap: 90px;
 }
-
-/* Portrait */
 
 .about-image {
     width: 100%;
@@ -384,9 +379,80 @@ main {
 
 /* about ends */
 
+/* skills starts */
+.skills {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 100px 7%;
+}
+
+.skills-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.skills-heading {
+    margin-bottom: 55px;
+}
+
+.skills-heading h2 {
+    font-size: clamp(32px, 4vw, 48px);
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 15px;
+}
+
+.skills-heading h2 span {
+    color: var(--accent);
+}
+
+.skills-description {
+    max-width: 550px;
+    color: var(--muted);
+    line-height: 1.7;
+}
+
+.skill-category h3 {
+    font-weight: 500;
+    color: var(--text);
+}
+
+.skill-items {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.skill-card {
+    min-height: 115px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+    padding: 15px 8px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--border-radius);
+    transition: all .3s ease-in-out;
+    min-width: 150px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--accent);
+    background: var(--surface-hover);
+}
+
+.skill-card img {
+    height: 30px;
+}
 
 /* educations starts */
-/* EDUCATION SECTION */
 
 .education {
     min-height: 80vh;
