@@ -452,6 +452,281 @@ main {
     height: 30px;
 }
 
+
+/* experience starts */
+/* Experience Section */
+.experience {
+    min-height: 100vh;
+    padding: 100px 7%;
+}
+
+.experience-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.experience-heading {
+    margin-bottom: 60px;
+}
+
+.experience-heading h2 {
+    font-size: clamp(32px, 4vw, 48px);
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 15px;
+}
+
+.experience-heading h2 span {
+    color: var(--accent);
+}
+
+.experience-description {
+    max-width: 550px;
+    color: var(--muted);
+    font-size: var(--text-base);
+    line-height: 1.7;
+}
+
+/* Experience List */
+.experience-list {
+    border-top: 1px solid var(--border);
+}
+
+.experience-item {
+    display: grid;
+    grid-template-columns: 230px 1fr;
+    gap: 55px;
+    padding: 45px 10px;
+    border-bottom: 1px solid var(--border);
+}
+
+/* Date and Location */
+.experience-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.experience-date {
+    color: var(--accent);
+    font-size: var(--text-sm);
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.experience-location {
+    color: var(--subtle);
+    font-size: var(--text-sm);
+}
+
+/* Role Details */
+.experience-content h3 {
+    color: var(--text);
+    font-size: var(--text-xl);
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+.experience-content h4 {
+    color: var(--muted);
+    font-size: var(--text-base);
+    font-weight: 500;
+    margin-bottom: 22px;
+}
+
+.experience-content ul {
+    padding-left: 19px;
+    margin-bottom: 25px;
+}
+
+.experience-content li {
+    color: var(--muted);
+    font-size: var(--text-sm);
+    line-height: 1.8;
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+
+.experience-content li::marker {
+    color: var(--accent);
+}
+
+/* Technology Tags */
+.experience-tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+}
+
+.experience-tech span {
+    padding: 7px 12px;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    color: var(--muted);
+    font-size: var(--text-xs);
+    background: var(--surface);
+}
+
+/* experience ends */
+
+
+/* project starts */
+/* Projects Section */
+.projects {
+    min-height: 100vh;
+    padding: 100px 7%;
+}
+
+.projects-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.projects-heading {
+    margin-bottom: 55px;
+}
+
+.projects-heading h2 {
+    font-size: clamp(32px, 4vw, 48px);
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 15px;
+}
+
+.projects-heading h2 span {
+    color: var(--accent);
+}
+
+.projects-description {
+    max-width: 550px;
+    color: var(--muted);
+    font-size: var(--text-base);
+    line-height: 1.7;
+}
+
+/* Projects Grid */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 35px;
+}
+
+.project-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    transition: var(--transition);
+}
+
+.project-card:hover {
+    transform: translateY(-6px);
+    border-color: var(--accent);
+}
+
+/* Project Preview */
+.project-image {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    overflow: hidden;
+    background: var(--surface-hover);
+}
+
+.project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.project-card:hover .project-image img {
+    transform: scale(1.04);
+}
+
+.project-number {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.65);
+    padding: 7px 12px;
+    font-size: var(--text-xs);
+    border-radius: 4px;
+}
+
+/* Project Content */
+.project-content {
+    padding: 28px;
+}
+
+.project-type {
+    color: var(--accent);
+    font-size: var(--text-xs);
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+}
+
+.project-content h3 {
+    color: var(--text);
+    font-size: var(--text-xl);
+    font-weight: 600;
+    margin-bottom: 14px;
+}
+
+.project-description {
+    color: var(--muted);
+    font-size: var(--text-sm);
+    line-height: 1.8;
+    margin-bottom: 22px;
+}
+
+/* Technology Tags */
+.project-tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 25px;
+}
+
+.project-tech span {
+    padding: 7px 11px;
+    color: var(--muted);
+    background: var(--surface-hover);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    font-size: var(--text-xs);
+}
+
+/* Project Links */
+.project-links {
+    display: flex;
+    gap: 25px;
+    padding-top: 18px;
+    border-top: 1px solid var(--border);
+}
+
+.project-links a {
+    color: var(--text);
+    font-size: var(--text-sm);
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.project-links a span {
+    color: var(--accent);
+}
+
+.project-links a:hover {
+    color: var(--accent);
+}
+
+/* project ends */
+
 /* educations starts */
 
 .education {

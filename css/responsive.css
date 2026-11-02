@@ -66,6 +66,46 @@
 
 /* skills ends */
 
+/* experience starts */
+@media (max-width: 768px) {
+    .experience {
+        padding: 80px 6%;
+    }
+
+    .experience-item {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 35px 5px;
+    }
+
+    .experience-meta {
+        gap: 6px;
+    }
+
+    .experience-content h3 {
+        font-size: 22px;
+    }
+}
+
+/* experience ends */
+
+/* project starts */
+@media (max-width: 768px) {
+    .projects {
+        padding: 80px 6%;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .project-content {
+        padding: 22px;
+    }
+}
+
+/* project ends */
 
 /* education starts */
 
